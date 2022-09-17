@@ -125,7 +125,8 @@ public class Asg5 {
 		do {
 			
 			displayMenu();
-			
+			//I am trying to clear the buffer with the line below but my buffer doenst seem to clear...
+			//stdin.nextLine();
 			System.out.print("Enter your selection: ");
 			selection = stdin.nextInt();
 			
