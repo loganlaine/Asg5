@@ -16,32 +16,6 @@ public class Asg5 {
 		
 	}
 	
-	public static void processChoice(int c) {
-		
-		switch (c) {
-		
-		case 1: 
-			cubicFeetToBushels();
-			break;
-			
-		case 2:
-			milesToKilometers();
-			break;
-			
-		case 3: 
-			graduationWithHonorsTitle();
-			break;
-			
-		case 4: break;
-			
-		default:
-			System.out.print("Invalid choice.");
-			
-		}
-		System.out.println();
-		
-	}
-	
 	public static double convertCubicFeetToBushels(float cubicFeet)  {
 		double BU = 0.803564;
 		double usBushels;
